@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154E4B7F27A4A689005DC5DC /* TankTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 154E4B7E27A4A689005DC5DC /* TankTimer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		154E4B8427A4A68A005DC5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E4B8327A4A68A005DC5DC /* Assets.xcassets */; };
+		154E4B8A27A4A68A005DC5DC /* TankTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 154E4B8927A4A68A005DC5DC /* TankTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		154E4B8F27A4A68A005DC5DC /* TankTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4B8E27A4A68A005DC5DC /* TankTimerApp.swift */; };
+		154E4B9127A4A68A005DC5DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4B9027A4A68A005DC5DC /* ContentView.swift */; };
+		154E4B9327A4A68A005DC5DC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4B9227A4A68A005DC5DC /* NotificationController.swift */; };
+		154E4B9527A4A68A005DC5DC /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4B9427A4A68A005DC5DC /* NotificationView.swift */; };
+		154E4B9727A4A68A005DC5DC /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4B9627A4A68A005DC5DC /* ComplicationController.swift */; };
+		154E4B9927A4A68B005DC5DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E4B9827A4A68B005DC5DC /* Assets.xcassets */; };
+		154E4B9C27A4A68B005DC5DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E4B9B27A4A68B005DC5DC /* Preview Assets.xcassets */; };
+		154E4BA827A4A68B005DC5DC /* TankTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4BA727A4A68B005DC5DC /* TankTimerTests.swift */; };
+		154E4BB227A4A68B005DC5DC /* TankTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4BB127A4A68B005DC5DC /* TankTimerUITests.swift */; };
+		154E4BB427A4A68B005DC5DC /* TankTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4BB327A4A68B005DC5DC /* TankTimerUITestsLaunchTests.swift */; };
+		154E4BC927A5CE05005DC5DC /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4BC827A5CE05005DC5DC /* TimerView.swift */; };
+		154E4BCB27A5DA8D005DC5DC /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4BCA27A5D15D005DC5DC /* TimerModel.swift */; };
+		154E4BCD27A5E557005DC5DC /* TankSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E4BCC27A5E557005DC5DC /* TankSelector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154E4B8027A4A689005DC5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154E4B7427A4A688005DC5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154E4B7D27A4A689005DC5DC;
+			remoteInfo = "TankTimer WatchKit App";
+		};
+		154E4B8B27A4A68A005DC5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154E4B7427A4A688005DC5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154E4B8827A4A68A005DC5DC;
+			remoteInfo = "TankTimer WatchKit Extension";
+		};
+		154E4BA427A4A68B005DC5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154E4B7427A4A688005DC5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154E4B8827A4A68A005DC5DC;
+			remoteInfo = "TankTimer WatchKit Extension";
+		};
+		154E4BAE27A4A68B005DC5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 154E4B7427A4A688005DC5DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 154E4B7D27A4A689005DC5DC;
+			remoteInfo = "TankTimer WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		154E4BBA27A4A68B005DC5DC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				154E4B8A27A4A68A005DC5DC /* TankTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4BBE27A4A68B005DC5DC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				154E4B7F27A4A689005DC5DC /* TankTimer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		154E4B7A27A4A688005DC5DC /* TankTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TankTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E4B7E27A4A689005DC5DC /* TankTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TankTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E4B8327A4A68A005DC5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		154E4B8927A4A68A005DC5DC /* TankTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TankTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E4B8E27A4A68A005DC5DC /* TankTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankTimerApp.swift; sourceTree = "<group>"; };
+		154E4B9027A4A68A005DC5DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		154E4B9227A4A68A005DC5DC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		154E4B9427A4A68A005DC5DC /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		154E4B9627A4A68A005DC5DC /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		154E4B9827A4A68B005DC5DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		154E4B9B27A4A68B005DC5DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		154E4B9D27A4A68B005DC5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E4B9E27A4A68B005DC5DC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		154E4BA327A4A68B005DC5DC /* TankTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TankTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E4BA727A4A68B005DC5DC /* TankTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankTimerTests.swift; sourceTree = "<group>"; };
+		154E4BAD27A4A68B005DC5DC /* TankTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TankTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E4BB127A4A68B005DC5DC /* TankTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankTimerUITests.swift; sourceTree = "<group>"; };
+		154E4BB327A4A68B005DC5DC /* TankTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		154E4BC827A5CE05005DC5DC /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		154E4BCA27A5D15D005DC5DC /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		154E4BCC27A5E557005DC5DC /* TankSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankSelector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154E4B8627A4A68A005DC5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4BA027A4A68B005DC5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4BAA27A4A68B005DC5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154E4B7327A4A688005DC5DC = {
+			isa = PBXGroup;
+			children = (
+				154E4B8227A4A689005DC5DC /* TankTimer WatchKit App */,
+				154E4B8D27A4A68A005DC5DC /* TankTimer WatchKit Extension */,
+				154E4BA627A4A68B005DC5DC /* TankTimerTests */,
+				154E4BB027A4A68B005DC5DC /* TankTimerUITests */,
+				154E4B7B27A4A688005DC5DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154E4B7B27A4A688005DC5DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154E4B7A27A4A688005DC5DC /* TankTimer.app */,
+				154E4B7E27A4A689005DC5DC /* TankTimer WatchKit App.app */,
+				154E4B8927A4A68A005DC5DC /* TankTimer WatchKit Extension.appex */,
+				154E4BA327A4A68B005DC5DC /* TankTimerTests.xctest */,
+				154E4BAD27A4A68B005DC5DC /* TankTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154E4B8227A4A689005DC5DC /* TankTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				154E4B8327A4A68A005DC5DC /* Assets.xcassets */,
+			);
+			path = "TankTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		154E4B8D27A4A68A005DC5DC /* TankTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				154E4BCA27A5D15D005DC5DC /* TimerModel.swift */,
+				154E4B8E27A4A68A005DC5DC /* TankTimerApp.swift */,
+				154E4B9027A4A68A005DC5DC /* ContentView.swift */,
+				154E4BC827A5CE05005DC5DC /* TimerView.swift */,
+				154E4B9227A4A68A005DC5DC /* NotificationController.swift */,
+				154E4B9427A4A68A005DC5DC /* NotificationView.swift */,
+				154E4B9627A4A68A005DC5DC /* ComplicationController.swift */,
+				154E4B9827A4A68B005DC5DC /* Assets.xcassets */,
+				154E4B9D27A4A68B005DC5DC /* Info.plist */,
+				154E4B9E27A4A68B005DC5DC /* PushNotificationPayload.apns */,
+				154E4B9A27A4A68B005DC5DC /* Preview Content */,
+				154E4BCC27A5E557005DC5DC /* TankSelector.swift */,
+			);
+			path = "TankTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		154E4B9A27A4A68B005DC5DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				154E4B9B27A4A68B005DC5DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		154E4BA627A4A68B005DC5DC /* TankTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				154E4BA727A4A68B005DC5DC /* TankTimerTests.swift */,
+			);
+			path = TankTimerTests;
+			sourceTree = "<group>";
+		};
+		154E4BB027A4A68B005DC5DC /* TankTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				154E4BB127A4A68B005DC5DC /* TankTimerUITests.swift */,
+				154E4BB327A4A68B005DC5DC /* TankTimerUITestsLaunchTests.swift */,
+			);
+			path = TankTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154E4B7927A4A688005DC5DC /* TankTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E4BBF27A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimer" */;
+			buildPhases = (
+				154E4B7827A4A688005DC5DC /* Resources */,
+				154E4BBE27A4A68B005DC5DC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154E4B8127A4A689005DC5DC /* PBXTargetDependency */,
+			);
+			name = TankTimer;
+			productName = TankTimer;
+			productReference = 154E4B7A27A4A688005DC5DC /* TankTimer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		154E4B7D27A4A689005DC5DC /* TankTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E4BBB27A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimer WatchKit App" */;
+			buildPhases = (
+				154E4B7C27A4A689005DC5DC /* Resources */,
+				154E4BBA27A4A68B005DC5DC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154E4B8C27A4A68A005DC5DC /* PBXTargetDependency */,
+			);
+			name = "TankTimer WatchKit App";
+			productName = "TankTimer WatchKit App";
+			productReference = 154E4B7E27A4A689005DC5DC /* TankTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		154E4B8827A4A68A005DC5DC /* TankTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E4BB727A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimer WatchKit Extension" */;
+			buildPhases = (
+				154E4B8527A4A68A005DC5DC /* Sources */,
+				154E4B8627A4A68A005DC5DC /* Frameworks */,
+				154E4B8727A4A68A005DC5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TankTimer WatchKit Extension";
+			productName = "TankTimer WatchKit Extension";
+			productReference = 154E4B8927A4A68A005DC5DC /* TankTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		154E4BA227A4A68B005DC5DC /* TankTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E4BC227A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimerTests" */;
+			buildPhases = (
+				154E4B9F27A4A68B005DC5DC /* Sources */,
+				154E4BA027A4A68B005DC5DC /* Frameworks */,
+				154E4BA127A4A68B005DC5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154E4BA527A4A68B005DC5DC /* PBXTargetDependency */,
+			);
+			name = TankTimerTests;
+			productName = TankTimerTests;
+			productReference = 154E4BA327A4A68B005DC5DC /* TankTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		154E4BAC27A4A68B005DC5DC /* TankTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E4BC527A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimerUITests" */;
+			buildPhases = (
+				154E4BA927A4A68B005DC5DC /* Sources */,
+				154E4BAA27A4A68B005DC5DC /* Frameworks */,
+				154E4BAB27A4A68B005DC5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154E4BAF27A4A68B005DC5DC /* PBXTargetDependency */,
+			);
+			name = TankTimerUITests;
+			productName = TankTimerUITests;
+			productReference = 154E4BAD27A4A68B005DC5DC /* TankTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154E4B7427A4A688005DC5DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					154E4B7927A4A688005DC5DC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					154E4B7D27A4A689005DC5DC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					154E4B8827A4A68A005DC5DC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					154E4BA227A4A68B005DC5DC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 154E4B8827A4A68A005DC5DC;
+					};
+					154E4BAC27A4A68B005DC5DC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 154E4B7D27A4A689005DC5DC;
+					};
+				};
+			};
+			buildConfigurationList = 154E4B7727A4A688005DC5DC /* Build configuration list for PBXProject "TankTimer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 154E4B7327A4A688005DC5DC;
+			productRefGroup = 154E4B7B27A4A688005DC5DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154E4B7927A4A688005DC5DC /* TankTimer */,
+				154E4B7D27A4A689005DC5DC /* TankTimer WatchKit App */,
+				154E4B8827A4A68A005DC5DC /* TankTimer WatchKit Extension */,
+				154E4BA227A4A68B005DC5DC /* TankTimerTests */,
+				154E4BAC27A4A68B005DC5DC /* TankTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154E4B7827A4A688005DC5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4B7C27A4A689005DC5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E4B8427A4A68A005DC5DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4B8727A4A68A005DC5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E4B9C27A4A68B005DC5DC /* Preview Assets.xcassets in Resources */,
+				154E4B9927A4A68B005DC5DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4BA127A4A68B005DC5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4BAB27A4A68B005DC5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154E4B8527A4A68A005DC5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E4B9327A4A68A005DC5DC /* NotificationController.swift in Sources */,
+				154E4B9127A4A68A005DC5DC /* ContentView.swift in Sources */,
+				154E4B9727A4A68A005DC5DC /* ComplicationController.swift in Sources */,
+				154E4BC927A5CE05005DC5DC /* TimerView.swift in Sources */,
+				154E4BCD27A5E557005DC5DC /* TankSelector.swift in Sources */,
+				154E4BCB27A5DA8D005DC5DC /* TimerModel.swift in Sources */,
+				154E4B8F27A4A68A005DC5DC /* TankTimerApp.swift in Sources */,
+				154E4B9527A4A68A005DC5DC /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4B9F27A4A68B005DC5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E4BA827A4A68B005DC5DC /* TankTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		154E4BA927A4A68B005DC5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E4BB427A4A68B005DC5DC /* TankTimerUITestsLaunchTests.swift in Sources */,
+				154E4BB227A4A68B005DC5DC /* TankTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154E4B8127A4A689005DC5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154E4B7D27A4A689005DC5DC /* TankTimer WatchKit App */;
+			targetProxy = 154E4B8027A4A689005DC5DC /* PBXContainerItemProxy */;
+		};
+		154E4B8C27A4A68A005DC5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154E4B8827A4A68A005DC5DC /* TankTimer WatchKit Extension */;
+			targetProxy = 154E4B8B27A4A68A005DC5DC /* PBXContainerItemProxy */;
+		};
+		154E4BA527A4A68B005DC5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154E4B8827A4A68A005DC5DC /* TankTimer WatchKit Extension */;
+			targetProxy = 154E4BA427A4A68B005DC5DC /* PBXContainerItemProxy */;
+		};
+		154E4BAF27A4A68B005DC5DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 154E4B7D27A4A689005DC5DC /* TankTimer WatchKit App */;
+			targetProxy = 154E4BAE27A4A68B005DC5DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		154E4BB527A4A68B005DC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		154E4BB627A4A68B005DC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154E4BB827A4A68B005DC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TankTimer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TankTimer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TankTimer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		154E4BB927A4A68B005DC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TankTimer WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TankTimer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TankTimer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		154E4BBC27A4A68B005DC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TankTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TankTimer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		154E4BBD27A4A68B005DC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TankTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TankTimer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		154E4BC027A4A68B005DC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		154E4BC127A4A68B005DC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		154E4BC327A4A68B005DC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TankTimer WatchKit Extension.appex/TankTimer WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		154E4BC427A4A68B005DC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TankTimer WatchKit Extension.appex/TankTimer WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		154E4BC627A4A68B005DC5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TankTimer WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		154E4BC727A4A68B005DC5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Y683JY97D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stasonis.example.TankTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TankTimer WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154E4B7727A4A688005DC5DC /* Build configuration list for PBXProject "TankTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E4BB527A4A68B005DC5DC /* Debug */,
+				154E4BB627A4A68B005DC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E4BB727A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E4BB827A4A68B005DC5DC /* Debug */,
+				154E4BB927A4A68B005DC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E4BBB27A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E4BBC27A4A68B005DC5DC /* Debug */,
+				154E4BBD27A4A68B005DC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E4BBF27A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E4BC027A4A68B005DC5DC /* Debug */,
+				154E4BC127A4A68B005DC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E4BC227A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E4BC327A4A68B005DC5DC /* Debug */,
+				154E4BC427A4A68B005DC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E4BC527A4A68B005DC5DC /* Build configuration list for PBXNativeTarget "TankTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E4BC627A4A68B005DC5DC /* Debug */,
+				154E4BC727A4A68B005DC5DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154E4B7427A4A688005DC5DC /* Project object */;
+}
